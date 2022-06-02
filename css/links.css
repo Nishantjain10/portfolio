@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+}
+
+.link-arrow {
+    color: var(--color-accent);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link-arrow {
+    color: var(--color-main-black);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link-arrow-style-b {
+    color: var(--color-main-black);
+    font-size: 7rem;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.link-arrow::after {
+    content: "-->";
+    margin-left: 5px;
+    transition: margin 0.15s;
+}
+.link-arrow-style-b::after {
+    content: '\2193';  
+}
+
+.link-arrow:hover::after {
+    margin-left: 10px;
+}
+
+.link-arrow-style-b:hover {
+    margin-top: 60px;
+    transition: margin .5s ease;
+}

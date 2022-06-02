@@ -1,0 +1,42 @@
+.testimonial {
+    padding: 3rem;
+}
+
+.testimonial-style-one {
+    padding-left: 2rem;
+}
+  
+.testimonial .quote {
+    margin: 2rem 0;
+    font-size: 110%;
+}
+  
+.testimonial-image {
+    position: relative;
+}
+
+.sub-testimonial-image {
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 0.5rem;
+    width: 35%;
+}
+  
+.testimonial-image > .icon-container {
+    position: absolute;
+    top: 3rem;
+    right: -32px;
+}
+  
+@media screen and (min-width: 768px) {
+    .testimonial-image {
+      margin: 0;
+    }
+  
+    .testimonial .quote {
+      margin: 5rem 0 0 6rem;
+      font-size: 120%;
+      line-height: 1.5;
+    }
+}
+  

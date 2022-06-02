@@ -1,0 +1,99 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+    align-items: center;
+}
+  
+.footer__list {
+    width: 100%;
+    margin: 0;
+    color: var(--color-main-black);
+}
+  
+.footer__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+}
+  
+.footer__item > a {
+    color: #1f1f22;
+    transition: color 0.3s;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: var(--color-main-black);
+}
+  
+.footer__item > a:hover {
+    color: dodgerblue;
+}
+  
+.footer__toggler {
+    opacity: 0.5;
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+}
+  
+.footer.collapsible--expanded .footer__toggler {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #666;
+    border-radius: 5px;
+}
+  
+.footer__brand {
+    transform: translateY(20px);
+    transform: translateX(-120px);
+}
+  
+.name-styling {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 120%;
+    margin-left: 115px;
+    letter-spacing: -0.03em;
+    color: #2429AF;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__toggler {
+      display: none;
+    }
+     
+    .footer.container {
+      margin-top: 90px;
+    }
+  
+    .footer__list {
+      width: auto;
+      display: flex;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 120%; 
+      letter-spacing: -0.03em;
+      color: var(--color-main-black);
+      max-height: 100%;
+      opacity: 1;  
+    }
+  
+    .footer__list:hover {
+      color: dodgerblue;
+    }
+  
+  
+    .footer__item {
+      border: 0;
+    }
+}
+  

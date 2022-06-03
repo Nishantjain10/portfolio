@@ -21,6 +21,7 @@ a {
     font-size: 7rem;
     display: inline-block;
     margin-top: 30px;
+    margin-left: 40%;
 }
 
 .link-arrow::after {
@@ -39,4 +40,10 @@ a {
 .link-arrow-style-b:hover {
     margin-top: 60px;
     transition: margin .5s ease;
+}
+
+@media screen and (min-width: 768px) {
+    .link-arrow-style-b {
+        margin-left: 0%;
+      }
 }

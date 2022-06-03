@@ -13,7 +13,7 @@ div.skill-button-wrapper > ul {
   font-weight: 500;
   position: relative;
   top: 50%;
-  left: 50%;
+  left: 46.5%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   display: -webkit-box;
@@ -228,7 +228,7 @@ div.skill-button-wrapper > ul > div > li:hover a:after {
 
 @media screen and (max-width: 500px) {
   div.skill-button-wrapper {
-    margin-left: -15px;
+    margin-left:-15px;
   }
   div.skill-button-wrapper > ul > div > li > a {
     font-size: 13px;

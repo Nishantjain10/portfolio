@@ -47,8 +47,7 @@
   }
   
   .btn--dark {
-      /* background: var(--color-main-black); */
-      background: #00d9ff;
+      background: var(--color-main-black);
       color: #fff;
       border-radius: 20px;
   }

@@ -48,8 +48,8 @@ h2.heading-style-three {
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
-  margin-top: -4rem;
-  margin-bottom: 16rem;
+  margin-top: -5rem;
+  margin-bottom: 14rem;
   letter-spacing: -0.03em;
   color: var(--color-main-black);
 }

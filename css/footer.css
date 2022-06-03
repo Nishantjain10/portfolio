@@ -38,7 +38,11 @@
     transition: box-shadow 0.15s;
     cursor: pointer;
 }
-  
+
+.footer.container {
+  margin-top: 120px;
+}
+
 .footer.collapsible--expanded .footer__toggler {
     opacity: 1;
     box-shadow: 0 0 0 3px #666;
@@ -51,10 +55,10 @@
 }
   
 .name-styling {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'DM Sans';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 21px;

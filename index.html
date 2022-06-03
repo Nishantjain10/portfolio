@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta name="description" content="Portfolio - Nishant Jain" />
     <meta property="og:title" content="Portfolio" />
     <meta property="og:description" content="Frontend Developer" />
@@ -20,9 +20,9 @@
   <link rel="stylesheet" href="globally/typography.css">
   <link rel="stylesheet" href="globally/normalize.css">
   <link rel="stylesheet" href="css/lists.css">
+  <link rel="stylesheet" href="css/collapsible.css">
   <link rel="stylesheet" href="css/navigation.css">
   <link rel="stylesheet" href="css/lists.css">
-  <link rel="stylesheet" href="css/collapsible.css">
   <link rel="stylesheet" href="css/blocks.css">
   <link rel="stylesheet" href="css/links.css">
   <link rel="stylesheet" href="css/title-animation.css">
@@ -62,16 +62,16 @@
     </header>
     <section class="hero-section">
       <div class="container container_margin grid grid--1x2">
-        <header class="block-header hero__content">
+        <header class="block__header hero__content">
           <h1 data-aos="fade-left" class="block__heading block__styling">
             Hello, I’m <br><span class="title-word title-word-1">Nishant</span><span class="title-word title-word-2"> Jain.</span> 
            </h1>
         </header>
         <h2 data-aos="fade-up"
         data-aos-anchor-placement="top-bottom" class="sub-block-style">
-          A sophomore computer science student who aspires to become a full-stack developer. 
+          A sophomore computer science student who aspires to become a Fullstack developer. 
         </h2>
-        <a href="#about-section"><div class="link-arrow-style-b"></div></a>     
+        <a href="#about-section" class="link-arrow-styling"><div class="link-arrow-style-b"></div></a>     
       </div>
     </section>
 
@@ -136,20 +136,11 @@
                     <li><a><i class="devicon-css3-plain"></i><span>SASS</span></a></li>
                     <li><a><i class="devicon-react-original"></i><span>React</span></a></li>
               </div>
-              <div><li><a><i class="devicon-vuejs-plain"></i><span>VueJS</span></a></li>
-                <li><a><i class="devicon-storybook-plain"></i><span class="lastTitle">Storybook</span></a></li>
+              <div><li><a><i class="devicon-git-plain"></i><span>Git</span></a></li>
+                <li><a><i class="devicon-photoshop-plain"></i><span class="lastTitle">Photoshop</span></a></li>
               </div>
             </ul>
           </div>
-          <div class="skill-button-wrapper">
-            <ul class="btn-properties"><div>
-              <li><a><i class="devicon-git-plain"></i><span>Git</span></a></li>
-              <li><a><i class="devicon-npm-original-wordmark"></i><span>NPM</span></a></li>
-            </div>
-            <div>
-              <li><a><i class="devicon-yarn-plain"></i><span>Yarn</span></a></li>
-              <li><a><i class="devicon-docker-plain"></i><span class="lastTitle">Docker</span></a></li>
-            </div>
           </ul>
         </div>
       </div>
@@ -157,6 +148,9 @@
 
 
     <section id="work-section" class="block container">
+      <header class="align-header-block">
+        <h2 class="heading-style-three">Projects</h2>
+      </header>
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class=" icon-container-two">
@@ -195,9 +189,9 @@
         <div class="card">
           <h3 class="testimonial-style-one">Graphic Design Intern - Bullseye Marketing</h3>
           <ul>
-            <li class="keypoints">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vel ipsa aut provident nam cumque. Minus sint distinctio reprehenderit explicabo?</li>
-            <li class="keypoints">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, officiis?</li>
-            <li class="keypoints">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam neque ea eveniet praesentium adipisci qui eius? Quo delectus, aspernatur quis, dolorum nisi quas, recusandae quae repellat id doloribus nesciunt!</li>
+            <li class="keypoints">I designed several posts for the company's social media accounts. With this internship, I was able to engage directly with clients and create content that met their requirements</li>
+            <li class="keypoints">I produced blogs, logos, and brochures for several domains and sites in addition to the carousel post.</li>
+            <li class="keypoints">Collaboration with the company's web development team improved my UI skills, and I also developed a number of static websites for various clients.</li>
            </ul>
           </div>
           </div>
@@ -207,8 +201,8 @@
               <h3 class="testimonial-style-one">Community Member - Hekors</h3>
               <ul>
                 <li class="keypoints">In the community, I am a developer and project maintainer.</li>
-                <li class="keypoints">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, officiis?</li>
-                <li class="keypoints">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ullam neque ea eveniet praesentium adipisci qui eius? Quo delectus, aspernatur quis, dolorum nisi quas, recusandae quae repellat id doloribus nesciunt!</li>
+                <li class="keypoints"> I worked on the community website and created a discord management server for the members of the community.</li>
+                <li class="keypoints"> I also serve as a mentor/coach here, leading sessions/workshops/discussion meetings on themes such as Techpreneurship, Personal Branding, Open Source, Profile Building, Networking, Hackathons, Languages, and a variety of other Soft/Hard Skill topics.</li>
                </ul>
               </div>
               </div>
@@ -227,19 +221,19 @@
                 CSS/SCSS, JavaScript
               </p>
             </div>
-            <a href="files/Nishant_ Resume.pdf" target="_blank" class="btn btn--dark btn--stretched"><i class="fa fa-thin fa-file"></i> Resume</a>
+            <a href="files/Nishant_ Resume.pdf" target="_blank" class="btn btn--secondary btn--stretched"><i class="fa fa-thin fa-file"></i> Resume</a>
           </div>
         </div>
       </div>
     </section>
     
     <section id="footer-section">
-      <footer class="container footer collapsible">
+      <footer class="container footer collapsible collapsible--expanded">
         <a aria-label="Nishant-portfolio" class="footer__brand" href="/">
           <h3 class="name-styling">Nishant Jain 2022</h3>
         </a>
-        <svg class="icon icon--black footer__toggler">
-          <use href="images/sprite.svg#menu"></use>
+        <svg class="icon icon--white collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
         </svg>
         <ul class="list footer__list collapsible__content">
           <li class="footer__item"><a href="https://www.linkedin.com/in/nishantj2002/" target="_blank"><i class="devicon-linkedin-plain"></i> Linkedin</a></li>
@@ -251,6 +245,7 @@
     </section>
 
     <script src="js/main.js"></script>
+    <script src="js/skillbutton.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();

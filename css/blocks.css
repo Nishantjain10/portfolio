@@ -3,6 +3,11 @@
     padding: var(--padding-vertical) 2rem;
 }
 
+.block-style-two {
+    --padding-vertical: 2rem;
+    padding: var(--padding-vertical) 2rem;
+}
+
 .block__header {
     text-align: center;
     margin-bottom: 0.2rem;
@@ -44,12 +49,12 @@ h1.block__styling {
 
 .align-header-block {
     text-align: center;
-    margin-bottom: 6rem;
+    margin-bottom: -2rem;
 }
 
 .align-header-block-type-two {
     text-align: center;
-    margin-bottom: -9rem;
+    margin-bottom: -6rem;
 }
 
 .block--dark {
@@ -87,5 +92,14 @@ h1.block__styling {
         letter-spacing: -0.03em;
         color: #606060;
         padding: 0;
+    }
+
+    .block-style-two {
+        --padding-vertical: 5rem;
+        padding: var(--padding-vertical) 2rem;
+    }
+
+    .align-header-block {
+        margin-bottom: 6rem;
     }
 }

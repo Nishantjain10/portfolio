@@ -15,7 +15,28 @@
       font-size: 2.4rem;
     }
   }
-  
+
+
+
+  @media screen and (min-width: 786px) {
+    .heading-style-three {
+    font-size: 1.5rem;
+    margin-bottom: 14rem;
+    }
+
+    #work-section {
+      margin-top: 10rem;
+  }
+
+  p.margin-top-paragraph {
+    text-align: left;
+  }
+
+  p.margin-top-paragraph-two {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 1024px) {
     .link-arrow {
     font-size: 1.5rem;

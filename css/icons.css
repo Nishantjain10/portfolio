@@ -51,6 +51,16 @@
     fill: white;
 }
 
+.icon--gray {
+    fill: #5c5577;
+}
+
+nav.collapsible--expanded> svg.icon--gray {
+    fill: black;
+    opacity: 0.7;
+    transition: fill .2s ease;
+}
+
 .icon--black {
     fill: black;
 }
@@ -79,4 +89,8 @@
 
 .icon-container--black {
     background-color: #2c2727;
+}
+
+@media screen and (min-width: 786px) {
+    
 }

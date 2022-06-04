@@ -32,6 +32,8 @@ h1.block__styling {
     margin-top: 70px;
     align-items: center;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -43,6 +45,11 @@ h1.block__styling {
 .align-header-block {
     text-align: center;
     margin-bottom: 6rem;
+}
+
+.align-header-block-type-two {
+    text-align: center;
+    margin-bottom: -9rem;
 }
 
 .block--dark {
@@ -79,5 +86,6 @@ h1.block__styling {
         margin-left: calc(50% - 680px/1.5 + 96px);
         letter-spacing: -0.03em;
         color: #606060;
+        padding: 0;
     }
 }

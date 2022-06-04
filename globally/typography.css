@@ -41,6 +41,7 @@ h2.heading-style-two {
   letter-spacing: -0.03em;
   color: var(--color-main-black);
   margin-top: 4rem;
+  display: inline-block;
 }
 
 h2.heading-style-three {
@@ -52,6 +53,7 @@ h2.heading-style-three {
   margin-bottom: 14rem;
   letter-spacing: -0.03em;
   color: var(--color-main-black);
+  display: inline-block;
 }
 
 h2.heading-style-four {
@@ -63,6 +65,7 @@ h2.heading-style-four {
   margin-bottom: 7rem;
   letter-spacing: -0.03em;
   color: var(--color-main-black);
+  display: inline-block;
 }
 
 p.margin-top-paragraph {

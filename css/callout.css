@@ -4,6 +4,10 @@
     /* border: 1px solid; */
     background-color: var(--color-primary);
   }
+
+  .resume-callout {
+    padding: 20px;
+  }
   
   .callout--primary {
     /* color: var(--color-main-black); */
@@ -34,7 +38,11 @@
     .callout .grid--1x2 {
       grid-template-columns: 1fr auto;
     }
-  
+
+    .resume-callout {
+      padding: 0;
+    }
+    
     .callout__content {
       text-align: left;
     }

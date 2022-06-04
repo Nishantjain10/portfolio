@@ -29,6 +29,11 @@ a {
     margin-left: 5px;
     transition: margin 0.15s;
 }
+
+.text-link {
+    display: none;
+}
+
 .link-arrow-style-b::after {
     content: '\2193';  
 }
@@ -46,4 +51,8 @@ a {
     .link-arrow-style-b {
         margin-left: 0%;
       }
+
+    .text-link {
+        display: block;
+    }
 }

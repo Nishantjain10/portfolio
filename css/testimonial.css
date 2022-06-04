@@ -3,7 +3,11 @@
 }
 
 .testimonial-style-one {
+    padding-right: 2rem;
+    padding-top: 2rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
   
 .testimonial .quote {
@@ -27,6 +31,15 @@
     top: 3rem;
     right: -32px;
 }
+
+.keypoints {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    padding: 10px;
+    color: var(--color-body);
+    line-height: 1.5;
+    background-color: #fff;
+}
   
 @media screen and (min-width: 768px) {
     .testimonial-image {
@@ -41,6 +54,19 @@
       margin: 5rem 0 0 6rem;
       font-size: 120%;
       line-height: 1.5;
+    }
+
+    .keypoints {
+        font-size: 1.8rem;
+        padding: 0;
+    }
+
+    .testimonial-style-one {
+        padding-right: 0rem;
+        padding-top: 0rem;
+        padding-left: 2rem;
+        padding-bottom: 0rem;
+        text-align: left;
     }
 }
   

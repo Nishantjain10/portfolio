@@ -46,14 +46,30 @@
     background: #ec3000;
   }
   
+  .btn-text-link {
+    display: block;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    outline: 0;
+    padding: 1rem 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;;
+  }
+
   .btn--dark {
-      background: var(--color-main-black);
+      /* background: var(--color-main-black); */
+      background: rgb(37, 37, 37);
       color: #fff;
-      border-radius: 20px;
+      border-radius: 10px;
   }
 
   .btn--dark:hover {
-      background: rgb(37, 37, 37);
+      background: rgb(56, 55, 55);
   }
 
   .btn--outline {
@@ -77,9 +93,13 @@
     display: inline-block;
   }
   
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 786px) {
     .btn {
       font-size: 1.5rem;
     }
+
+    .btn-text-link {
+      display: none;
+    }    
   }
   

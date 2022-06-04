@@ -52,6 +52,11 @@ h1.block__styling {
     margin-bottom: -2rem;
 }
 
+.align-header-block-style-one {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
 .align-header-block-type-two {
     text-align: center;
     margin-bottom: -6rem;

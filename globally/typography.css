@@ -61,8 +61,8 @@ h2.heading-style-four {
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
-  margin-top: -6rem;
-  margin-bottom: 7rem;
+  margin-top:  1rem;
+  margin-bottom: 10rem;
   letter-spacing: -0.03em;
   color: var(--color-main-black);
   display: inline-block;

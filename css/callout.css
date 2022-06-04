@@ -1,6 +1,6 @@
 .callout {
     padding: 4rem;
-    border-radius: 5px;
+    border-radius: 10px;
     /* border: 1px solid; */
     background-color: var(--color-primary);
   }

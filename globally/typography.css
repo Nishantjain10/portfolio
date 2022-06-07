@@ -91,4 +91,8 @@ p.margin-top-paragraph-two {
   color: #606060;
   margin-top: 70px;
 }
-  
+
+.text-hover-effect:hover {
+  color: #3588f5;
+  transition: color 0.5s ease-in-out;
+}

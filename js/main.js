@@ -16,7 +16,6 @@ const options = {
   buttonColorLight: '#fff', // default: '#fff'
   saveInCookies: false, // default: true,
   label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
 }
 
 const darkmode = new Darkmode(options);

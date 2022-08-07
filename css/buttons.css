@@ -104,6 +104,11 @@
     width: 100%;
     display: inline-block;
   }
+
+  .darkmode--activated .button-page-link {
+    color: whitesmoke;
+  }
+
   
   @media screen and (min-width: 786px) {
     .btn {

@@ -47,6 +47,10 @@ h1.block__styling {
     color: #606060;
 }
 
+.darkmode--activated .sub-block-style {
+    color: #404040;
+}
+
 .align-header-block {
     text-align: center;
     margin-bottom: -2rem;

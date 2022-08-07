@@ -44,6 +44,10 @@ h2.heading-style-two {
   display: inline-block;
 }
 
+.darkmode--activated .heading-style-two{
+  color: rgba(255, 255, 255, 0.927);
+}
+
 h2.heading-style-three {
   font-family: 'DM Sans';
   font-style: normal;
@@ -56,6 +60,11 @@ h2.heading-style-three {
   display: inline-block;
 }
 
+.darkmode--activated .heading-style-three{
+  color: rgba(255, 255, 255, 0.927);
+}
+
+
 h2.heading-style-four {
   font-family: 'DM Sans';
   font-style: normal;
@@ -66,6 +75,10 @@ h2.heading-style-four {
   letter-spacing: -0.03em;
   color: var(--color-main-black);
   display: inline-block;
+}
+
+.darkmode--activated .heading-style-four{
+  color: rgba(255, 255, 255, 0.927);
 }
 
 p.margin-top-paragraph {
@@ -80,6 +93,10 @@ p.margin-top-paragraph {
   margin-top: 60px;
 }
 
+.darkmode--activated .margin-top-paragraph {
+  color: rgba(255, 255, 255, 0.713);
+}
+
 p.margin-top-paragraph-two {
   font-family: 'DM Sans';
   font-style: normal;
@@ -90,6 +107,10 @@ p.margin-top-paragraph-two {
   text-align: center;
   color: #606060;
   margin-top: 70px;
+}
+
+.darkmode--activated .margin-top-paragraph-two {
+  color: rgba(255, 255, 255, 0.713);
 }
 
 .text-hover-effect:hover {

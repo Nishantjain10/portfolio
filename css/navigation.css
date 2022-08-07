@@ -21,6 +21,10 @@
     color: #1f1f22;
     transition: color 0.3s;
 }
+
+.darkmode--activated .nav__item>a {
+  transition: none;
+}
   
 .nav__item > a:hover {
     color: dodgerblue;
@@ -32,6 +36,7 @@
     cursor: pointer;
 }
 
+
 .nav__toggler:focus {
     background: black;
     opacity: 1;
@@ -42,6 +47,7 @@
     box-shadow: 0 0 0 3px #666;
     border-radius: 5px;
 }
+
   
 .nav__brand {
     transform: translateY(20px);
@@ -56,6 +62,10 @@
   font-weight: 500;
   margin-left: 115px;
   color: var(--color-main-black);
+}
+
+.darkmode--activated .logo-styling {
+  color: #fff;
 }
 
 @media screen and (min-width: 768px) {

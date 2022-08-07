@@ -5,6 +5,15 @@
     margin-bottom: 40px;
 }
 
+.darkmode--activated .card {
+    box-shadow:  0 0 5px 1px #f3f3f3;
+}
+
+.darkmode--activated .card:hover {
+    box-shadow:  0 0 8px 2px #f3f3f3;
+    transition: all 0.5s ease-in-out;
+}
+
 .card--overflow {
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;

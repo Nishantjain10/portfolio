@@ -37,6 +37,10 @@
     opacity: 0;
     transition: opacity 0.6s, visibility 2s;
 }
+
+.darkmode--activated .profile-vector-name {
+    color: beige;
+}
   
 .img__wrap:hover .profile-vector-name {
     visibility: visible;
@@ -55,10 +59,19 @@
     fill: #5c5577;
 }
 
+.darkmode--activated .icon--gray {
+    fill: #fff;
+}
+
 nav.collapsible--expanded> svg.icon--gray {
     fill: black;
     opacity: 0.7;
     transition: fill .2s ease;
+}
+
+.darkmode--activated nav.collapsible--expanded> svg.icon--gray {
+    fill: #fff;
+    transition: none;
 }
 
 .icon--black {

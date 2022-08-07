@@ -9,6 +9,10 @@
     padding-bottom: 1rem;
     text-align: center;
 }
+
+.darkmode--activated .testimonial-style-one{
+    color: rgba(255, 255, 255, 0.857);
+}
   
 .testimonial .quote {
     margin: 2rem 0;
@@ -36,9 +40,14 @@
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.0rem;
     padding: 10px;
-    color: var(--color-body);
+    color: #5c5a64;
     line-height: 1.5;
     background-color: #fff;
+}
+
+.darkmode--activated .keypoints{
+    color: rgba(255, 255, 255, 0.766);
+    background-color: #000;
 }
   
 @media screen and (min-width: 768px) {

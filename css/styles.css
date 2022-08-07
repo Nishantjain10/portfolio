@@ -36,3 +36,8 @@ body {
     margin-top: 8rem;
 }
 
+
+/* darkmode-debug */
+.darkmode-toggle {
+    z-index: 500;
+}

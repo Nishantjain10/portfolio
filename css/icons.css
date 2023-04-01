@@ -32,9 +32,8 @@
     line-height: 97.2%;
     letter-spacing: -0.03em;
     color: var(--color-main-black);
-    visibility: hidden;
     text-align: center;
-    opacity: 0;
+    padding-top: 20px;
     transition: opacity 0.6s, visibility 2s;
 }
 

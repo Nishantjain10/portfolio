@@ -24,14 +24,15 @@
 }
 
 .sub-testimonial-image {
-    position: relative;
-    margin-top: 0.5rem;
-    width: 35%;
-    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    filter: grayscale(30%);  
 }
   
 .testimonial-image > .icon-container {
-    position: absolute;
+
     top: 3rem;
     right: -32px;
 }
@@ -53,11 +54,13 @@
 @media screen and (min-width: 768px) {
     .testimonial-image {
       margin: 0;
+      width: 60%;
+      border-radius: 200px;
+      margin-left: 70px;
+      padding-top: 20px;
+      filter: grayscale(30%);  
     }
-    
-    .sub-testimonial-image {
-        margin-left: 15rem;
-    }
+
 
     .testimonial .quote {
       margin: 5rem 0 0 6rem;
@@ -78,4 +81,3 @@
         text-align: left;
     }
 }
-  

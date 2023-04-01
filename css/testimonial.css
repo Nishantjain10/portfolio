@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 200px;
-    filter: grayscale(20%);  
+    filter: grayscale(10%);  
 }
   
 .testimonial-image > .icon-container {
